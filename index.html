@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>Supply &amp; Demand</title>
+		
+		<link href='https://fonts.googleapis.com/css?family=Raleway:400,500,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="styles.css">
+
+	</head>
+	<body>
+		
+		<header>
+			<h1><a href="index.html">Supply &amp; Demand</a></h1>
+			<nav>
+				<ul>
+					<li>
+						<a href="#"><span>Workshop</span></a>
+					</li>
+					<li>
+						<a href="#"><span>Store</span></a>
+					</li>
+					<li>
+						<a href="#"><span>Blog</span></a>
+					</li>
+					<li>
+						<a href="#"><span>About</span></a>
+					</li>
+					<li>
+						<a href="#"><span>Contact</span></a>
+					</li>
+				</ul>
+			</nav>
+		</header>	
+			<div id="container">
+				<img id="currentImage" src="https://unsplash.it/800/600?image=533">
+				<div id="score"></div>
+				<div id="buttons-wrapper">
+					<form>
+						<button type="button" id="prev" class="btn" disabled="true">Previous</button>
+						<button type="button" id="next" class="btn">Next</button>
+						<br>
+						<i id="upvote" class="fa fa-thumbs-up"></i>
+						<i id="downvote" class="fa fa-thumbs-down"></i>
+						<p id="votes">Likes: 0</p>
+					</form>
+				</div>
+			</div>
+			<footer>
+				
+			</footer>
+		<!-- #container --> 
+		<script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="main.js"></script>
+	</body>
+</html>
